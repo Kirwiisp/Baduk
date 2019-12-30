@@ -10,6 +10,7 @@ public class Stone {
 
     public Stone (Player player){
         this.color = player.getColor();
+
     }
 
     public Stone(char color){this.color = color;}
